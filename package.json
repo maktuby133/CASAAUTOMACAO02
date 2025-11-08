@@ -1,7 +1,7 @@
 {
-  "name": "casa-automacao",
+  "name": "esp32-automation-server",
   "version": "1.0.0",
-  "description": "Sistema de automação residencial com ESP32 e Node.js",
+  "description": "Servidor para automação com ESP32 - Controle de luzes e sensores",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
@@ -10,13 +10,13 @@
   },
   "keywords": [
     "esp32",
-    "iot",
+    "iot", 
     "automation",
     "arduino",
     "sensors",
-    "home-automation"
+    "lights"
   ],
-  "author": "Charles",
+  "author": "Seu Nome",
   "license": "MIT",
   "dependencies": {
     "express": "^4.18.2",
@@ -27,9 +27,5 @@
   },
   "engines": {
     "node": ">=16.0.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/maktuby133/CASAAUTOMACAO"
   }
 }
